@@ -1,0 +1,42 @@
+/* Set a background color and center the content */
+body {
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style for buttons */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Start button color */
+#startButton {
+    background-color: green;
+}
+
+/* Stop button color */
+#stopButton {
+    background-color: red;
+}
+
+/* Style for the image */
+#memeImage {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transition: all 0.5s ease;
+    width: 100px;
+    border-radius: 10px;
+}
